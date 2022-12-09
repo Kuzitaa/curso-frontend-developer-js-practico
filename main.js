@@ -6,6 +6,8 @@ const mobileMenu = document.querySelector('.mobile-menu')
 const orderMenu = document.querySelector('.product-detail')
 const cardsContainer = document.querySelector('.cards-container')
 
+const productDetails = document.querySelector('.product-detail-secondary')
+
 menuEmail.addEventListener('click', toggleDesktopMenu)
 burguerMenu.addEventListener('click', toggleMobileMenu)
 menuCartIcon.addEventListener('click', toggleOrderMenu)
@@ -22,6 +24,7 @@ function toggleMobileMenu() {
 }
 
 function toggleOrderMenu() {
+    productDetails.classList.add('inactive')
     desktopMenu.classList.add('inactive')
     mobileMenu.classList.add('inactive')
     orderMenu.classList.toggle('inactive')
