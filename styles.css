@@ -129,7 +129,6 @@
     box-sizing: border-box;
     /* position: fixed; */
     padding: 24px;
-    z-index: 0;
   }
   .mobile-menu a {
     text-decoration: none;
@@ -283,7 +282,6 @@
     box-sizing: border-box;
     right: 0;
     background-color: var(--white);
-    z-index: 1;
   }
   .product-detail-secondary-close {
     background: var(--white);
